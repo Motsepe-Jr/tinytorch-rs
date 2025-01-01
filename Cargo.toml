@@ -1,0 +1,11 @@
+[package]
+name = "tinytorch-rs"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+ndarray = "0.16.1"
+graphviz-rust = "0.9.3"
+uuid = { version = "1.4", features = ["v4"] }
+thiserror = "2.0.1"
