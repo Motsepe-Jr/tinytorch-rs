@@ -17,6 +17,5 @@ pub struct Tensor {
     pub grad: Option<ArrayD<f32>>,
     pub requires_grad: bool, 
     pub is_leaf: bool, 
-    pub grad_fn: Option<Rc<Function>>,
     
 }
